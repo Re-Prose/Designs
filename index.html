@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <video autoplay muted id="bgVideo">
+    <video autoplay muted id="bgVideo" onended="topShow()">
       <source src="ReProseEnter-1080p.mp4">
     </video>
     
-    <div class="top">
+    <div class="top" style="display:none" id="top part">
       <header>
       <h1>Reprised Prose Designs</h1>
+        <p> This is the beginning of something awesome! </p>
       </header>
     </div>
   <script>
+    function topShow() {
+      document.getElementById("top part").style.display="block";
+      document.getElementById("top part").style.transition="1s";
+    }
   </script>
   </body>
 </html>
