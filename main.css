@@ -16,3 +16,10 @@ body {
   min-height: 100%;
   z-index: -200;
 }
+
+p {
+  font-family: "Didot", serif;
+}
+header .special {
+  font-family: "Copperplate", sans-serif;
+}
