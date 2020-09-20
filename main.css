@@ -25,6 +25,8 @@ h1 {
 }
 
 .top {
+  Position: absolute;
+  Top: 100px;
   width: 90%;
   background-color: rgba(255,255,255,0.25);
   color: #260f26;
