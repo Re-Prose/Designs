@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <video autoplay muted id="bgVideo">
+    <video autoplay muted id="bgVideo" onended="topCall()">
       <source src="ReProseEnter-1080p.mp4">
     </video>
     
-    <div class="top" id="top part">
+    <div class="top" id="top part" style="display:none">
       <header>
       <h1>Reprised Prose Designs</h1>
         <p> This is the beginning of something awesome! </p>
       </header>
     </div>
   <script>
-  
+  function topCall() {
+    document.getElementById("top part").style.display="block";
+  }
   </script>
   </body>
 </html>
