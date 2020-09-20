@@ -33,5 +33,7 @@ h1 {
   margin-right: auto;
   margin-bottom: auto;
   padding: 20px;
+  transition-delay: 4s;
+  transition: 2s;
  
 }
