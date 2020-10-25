@@ -1,5 +1,5 @@
 body {
-  background-color: #f4eeff;
+  background-color: #fff5f6;
   background-position: center;
   background-attachment: fixed;
   top: 0;
@@ -27,7 +27,7 @@ h1 {
 .top {
   max-width: 95%;
   text-align: center;
-  color: #260f26;
+  color: #381A38;
   margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
