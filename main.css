@@ -37,3 +37,31 @@ h1 {
   transition: 2s;
  
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #381a38;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #e8b5d4;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #fc8076;
+  color: white;
+}
