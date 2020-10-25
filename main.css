@@ -41,7 +41,7 @@ h1 {
 .hero-image {
   height: 100%;
   margin: auto;
-  padding: 0, 20, 0, 20;
+  padding: 0px, 20px, 0px, 20px;
   position: relative;
 }
 
