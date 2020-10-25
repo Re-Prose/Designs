@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar" id="menu">
   <a href="#home" class="active">Home</a>
   <a href="#about">About Me</a>
   <a href="#gallery">Gallery</a>
       <a href="#contact">Contact</a>
 </div>
    <video autoplay muted id="bgVideo">
-      <source src="ReProseEnter2-1080p.mp4">
+      <source src="ReProseEnter2-1080p.mp4" onended="showMenu()">
     </video> 
     
     <div class="top" id="top part" style="display:none">
@@ -25,6 +25,9 @@
     </div>
   <script>
   
+    function showMenu() {
+  document.getElementById("menu").style.display = "block";
+}
   </script>
   </body>
 </html>
