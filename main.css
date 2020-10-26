@@ -80,7 +80,8 @@ h1 {
   display: block;
   max-width: 99%;
   margin-bottom: 45px;
-  transition-delay: 1s;
+  opacity: 0%;
+  transition: opacity 2s;
 }
 
 div.gallery {
