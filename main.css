@@ -74,6 +74,11 @@ h1 {
   color: black;
 }
 
+.galBox {
+  display: block;
+  max-width: 99%;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
