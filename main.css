@@ -45,6 +45,8 @@ h1 {
   max-width: 100%;
   margin: auto;
   position: relative;
+  opacity: 0%;
+  transition: opacity 3.5s
 }
 
 .navbar {
