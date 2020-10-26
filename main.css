@@ -80,6 +80,7 @@ h1 {
 .galBox {
   display: block;
   max-width: 99%;
+  margin-bottom: 45px;
 }
 
 div.gallery {
