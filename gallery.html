@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="main.css">
   </head>
-  <body>
+  <body onload="galOn()">
     <div class="navbar" id="menu">
   <a href="index.html">Home</a>
   <a href="about.html">About Me</a>
@@ -16,7 +16,9 @@
     <div class="hero-image">
       <img src="RPBanner.png">
     </div>
-<div class="galBox">    
+    
+    
+<div class="galBox" id="galBox" style="display:none">    
    <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="oneMoreChapter_LRG.jpg">
@@ -102,8 +104,9 @@
 <div class="clearfix"></div>
 </div>
   <script>
-  
-   
+    function galOn(){
+    document.getElementById("galBox").style.display = "block";
+    }
   </script>
   </body>
 </html>
