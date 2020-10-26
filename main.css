@@ -55,6 +55,8 @@ h1 {
   left: 0;
   width: 100%;
   z-index: 100;
+  opacity: 0%;
+  transition: opacity 3.5s
 }
 
 .navbar a {
