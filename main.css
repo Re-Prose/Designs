@@ -95,6 +95,12 @@ h2 {
   transition: opacity 3.5s;
 }
 
+@media only screen and (max-width: 700px) {
+  .galBox {
+    margin-bottom: 90px;
+  }
+}
+
 .conBox {
   display: block;
   max-width: 99%;
