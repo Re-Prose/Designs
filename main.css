@@ -20,9 +20,15 @@ body {
 
 p {
   font-family: "Didot", serif;
+  font-size: 1em;
 }
 h1 {
   font-family: "Copperplate", sans-serif;
+  font-size: 2.5em;
+}
+h2 {
+  font-family: "Copperplate", sans-serif;
+  font-size: 1.75em;
 }
 
 .top {
@@ -117,6 +123,24 @@ h1 {
 .conBox p {
   text-align: center;
   font-family: "Didot", serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .conBox h1 {
+    font-size: 1.25em;
+  }
+  .conBox p {
+    font-size: .75em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .conBox h1 {
+    font-size: 1em;
+  }
+  .conBox p {
+    font-size: .5em;
+  }
 }
 
 div.gallery {
