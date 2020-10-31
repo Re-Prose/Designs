@@ -89,6 +89,14 @@ h1 {
   transition: opacity 3.5s;
 }
 
+.conBox {
+  display: block;
+  max-width: 99%;
+  margin-bottom: 45px;
+  opacity: 0%;
+  transition: opacity 3.5s;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
