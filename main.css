@@ -125,7 +125,7 @@ h2 {
   transition: opacity 3.5s;
   border-radius: 25px;
   border: 2px solid #2a132a;
-  box-shadow: 3px 3px 5px #896e89;
+  box-shadow: 5px 5px 8px #896e89;
 }
 
 .conBox h1 {
