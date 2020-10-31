@@ -98,6 +98,17 @@ h1 {
   transition: opacity 3.5s;
 }
 
+.conBox.alt {
+  display: block;
+  max-width: 99%;
+  margin-bottom: 45px;
+  padding: 25px;
+  opacity: 0;
+  transition: opacity 3.5s;
+  border-radius: 25px;
+  border: 2px solid #2a132a;
+}
+
 .conBox h1 {
   text-align: center;
   font-family: "Copperplate", sans-serif;
