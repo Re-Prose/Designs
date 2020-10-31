@@ -74,9 +74,15 @@ h2 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.1em;
 }
 
+@media only screen and (max-width: 500px) {
+  .navbar a {
+    padding: 10px 12px;
+    font-size: .75em;
+  }
+}
 .navbar a:hover {
   background: #e8b5d4;
   color: black;
@@ -95,7 +101,7 @@ h2 {
   transition: opacity 3.5s;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .galBox {
     margin-bottom: 90px;
   }
