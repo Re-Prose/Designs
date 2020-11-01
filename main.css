@@ -134,7 +134,7 @@ h2 {
 }
 
 .conBox p {
-  text-align: center;
+  text-align: left;
   font-family: "Didot", serif;
 }
 
@@ -216,8 +216,8 @@ div.desc {
 .column {
   float: left;
   width: 49.99%;
-  padding: 20px;
-  margin: 20px;
+  padding: 30px;
+  margin: 20px 0px;
 }
 
 .column img {
