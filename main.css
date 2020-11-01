@@ -32,7 +32,7 @@ h2 {
 }
 
 blockquote {
-  border-style: ridge none;
+  border-style: none ridge;
   border-color: #FC8076;
   border-width: medium;
 }
