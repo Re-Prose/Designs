@@ -128,7 +128,7 @@ blockquote {
   transition: opacity 3.5s;
 }
 
-.conBox.altTop {
+.altTop {
   display: block;
   max-width: 100%;
   margin-top: 35px;
@@ -165,7 +165,7 @@ blockquote {
   .conBox p {
     font-size: 1em;
   }
-  .conBox.altTop {
+  .altTop {
   margin-top: 0px;
   }
 }
