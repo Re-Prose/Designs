@@ -263,7 +263,7 @@ div.desc {
   }
   .column img {
     max-width: 50%;
-    float: center;
+    float: right;
     height: auto;
   }
 }
