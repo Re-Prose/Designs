@@ -258,4 +258,8 @@ div.desc {
     padding: 10px;
     margin: 10px;
   }
+  .column img {
+    max-width: 50%;
+    height: auto;
+  }
 }
