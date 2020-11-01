@@ -33,7 +33,9 @@ h2 {
 
 blockquote {
   width: 50%;
-  border-style: none ridge;
+  float: right;
+  padding-right: 20px;
+  border-style: none ridge ridge none;
   border-color: #FC8076;
   border-width: medium;
   font-family: "Copperplate", sans-serif;
